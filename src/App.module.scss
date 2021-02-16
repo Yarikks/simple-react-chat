@@ -1,0 +1,7 @@
+.appContainer {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 10% 60% 10% 10%;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-row: 1;
+  grid-template-columns: 15% 25% 20% 40%;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid black;
+  margin-bottom: 8px;
+  border-radius: 8px;
+
+  .info {
+    align-self: center;
+    padding: 8px;
+  }
+
+  .lastMessage {
+    align-self: center;
+    justify-self: end;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    font-size: 2vw;
+  }
+}
