@@ -1,0 +1,17 @@
+.sendBtn {
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+
+  &:focus {
+    outline: none;
+  }
+
+  i {
+    margin-right: 12px;
+    color: #71b9fc;
+  }
+}
