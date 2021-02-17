@@ -1,0 +1,69 @@
+p {
+  margin: 0;
+}
+
+.messageContainer {
+  display: grid;
+  width: 60%;
+  height: auto;
+  margin: 8px;
+  padding: 12px;
+
+  &.left {
+    display: grid;
+    grid-template-columns: 25% 75% ;
+    grid-template-rows: 25px auto 25px;
+    justify-self: start;
+    background-color: #fff;
+  }
+
+  &.right {
+    display: grid;
+    grid-template-rows: 25px 25px auto 25px;
+    justify-self: end;
+    background-color: #84e2ff;
+  }
+
+  .controlBtnGroup {
+    display: flex;
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: end;
+    align-self: center;
+
+    .editBtn {
+      margin-right: 8px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .deleteBtn {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .editMode {
+    display: grid;
+    grid-row: 2 / 4;
+    grid-template-columns: 80% 20%;
+
+    textarea {
+      grid-column: 1;
+      resize: none;
+    }
+
+    button {
+      outline: none;
+      grid-column: 2;
+      align-self: center;
+      margin-left: 8px;
+      justify-self: start;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid black;
+    }
+  }
+}
