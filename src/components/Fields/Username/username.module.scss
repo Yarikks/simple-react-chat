@@ -1,0 +1,23 @@
+.username {
+  display: grid;
+  height: fit-content;
+
+  &.right {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: end;
+  }
+
+  &.left {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: start;
+    margin-left: 12px;
+  }
+
+  p {
+    width: fit-content;
+    border-bottom: 1px solid black;
+    color: #505050;
+  }
+}

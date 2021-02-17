@@ -1,0 +1,13 @@
+.time {
+  &.right {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  &.left {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+  }
+}
