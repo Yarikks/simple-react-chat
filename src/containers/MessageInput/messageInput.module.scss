@@ -9,16 +9,10 @@
     margin: 8px;
     align-self: center;
     resize: none;
-  }
 
-  .sendBtn {
-    grid-column: 2;
-    align-self: center;
-    justify-self: center;
-    padding: 8px;
-
-    i {
-      margin-right: 12px;
+    &:focus {
+      outline: 1px solid #94e1ff;
+      border: 1px solid #94e1ff;
     }
   }
 }
